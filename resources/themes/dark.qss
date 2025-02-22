@@ -1,0 +1,10 @@
+# resources/themes/dark.qss (sample theme file)
+QMainWindow {
+    background-color: #2b2b2b;
+}
+
+QToolBar {
+    background-color: #353535;
+    spacing: 5px;
+    padding: 3px;
+}
