@@ -4,7 +4,7 @@ from typing import Any, Dict
 from PyQt6.QtWidgets import QHBoxLayout, QLabel, QVBoxLayout, QWidget
 
 from core.settings import AppSettings
-from utils.canvas_manager import CanvasManager
+from modules.canvas_manager import CanvasManager
 
 
 class AudioAnalysisView(QWidget):

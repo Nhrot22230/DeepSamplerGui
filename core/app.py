@@ -8,7 +8,7 @@ from core.settings import AppSettings
 
 
 class MusicSeparationApp:
-    def __init__(self) -> None:
+    def __init__(self):
         self.qapp = QApplication(sys.argv)
         self.settings = AppSettings()
         self.main_window = MainWindow(self.settings)
